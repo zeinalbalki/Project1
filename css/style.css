@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Montserrat:wght@300;400;700&family=Poppins:ital,wght@0,400;0,700;0,900;1,400&display=swap");
+
+body {
+  font-family: "Poppins", arial;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* CSS Login, daftar */
+.ilustrasi img {
+  width: 450px;
+}
+
+.card {
+  border-radius: 10px;
+}
+.border-radius-10 {
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #11bac1;
+  border: 1px solid #11bac1;
+}
+.btn:hover {
+  background-color: #079196;
+  border: 1px solid white;
+}
+
+.forgot-password:hover,
+.daftar:hover {
+  color: #079196;
+}
+
+/* Landing Page CSS */
+
+/* Navbar & hero */
+.navbar {
+  width: 100%;
+}
+
+.hero {
+  margin-top: 120px;
+}
+
+.bg-active {
+  background-color: #fff !important;
+  color: #00b7c4 !important;
+  border: 0px;
+  transition: 0.3s;
+}
+
+.bg-custom {
+  background-color: #fff !important;
+  color: #00b7c4 !important;
+  border: 1px solid #00b7c4;
+  transition: 0.3s;
+}
+
+.bg-custom:hover {
+  background-color: #00b7c4 !important;
+  border: 1px solid rgba(0, 0, 0, 0);
+  color: #fff !important;
+}
+
+.ketebalan-sedang {
+  font-weight: 700;
+}
+
+.link {
+  color: gray;
+  transition: 0.3s;
+}
+
+.link:hover {
+  color: #96baff;
+}
+
+.button {
+  background-color: #00b7c4 !important;
+  border: none;
+  color: #fff;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(60, 218, 218) !important;
+  color: #fff;
+}
+
+/* Project */
+.img-project {
+  width: 100%;
+}
+
+.text-orange {
+  color: orange !important;
+}
+
+/* Service */
+.service {
+  margin-top: 200px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .hero .programmer img {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .ilustrasi img {
+    width: 90%;
+  }
+}
+.hero img {
+  width: 100%;
+}
